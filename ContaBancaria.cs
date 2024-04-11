@@ -28,9 +28,9 @@ namespace Tipos
         public void Sacar(double valor){
             if (valor>Saldo)
             {
-                Console,WriteLine("Saldo insuficiente.");
+                Console.WriteLine("Saldo insuficiente.");
             }
-                Saldo =- valor;
+                Saldo -= valor;
                 Console.WriteLine($"Saque de {valor} realizado com sucesso");
         }
 
